@@ -24,5 +24,6 @@ public class TheaterReservations {
         else {
             System.out.println("Ticket reserved for " + userDate + " under " + last + " " + first);
         }
-        }
+        in.close();
+    }
 }
